@@ -6,10 +6,6 @@ $('.slickAwards').slick({
   autoplaySpeed: 2000,
 })
 
-setTimeout(function() {
-  $('#lugarVotacion').modal('show');
-}, 5000);
-
 // Set the countdown date
 var countDownDate = new Date("Oct 29, 2023 00:00:00").getTime();
 
