@@ -823,6 +823,13 @@ header .socials a img {
   row-gap: 10px;
   gap: 10px;
   text-align: center;
+  padding: 0;
+}
+@media screen and (max-width: 991px) {
+  #candidatoUnit .d-grid {
+    -ms-grid-columns: 100% !important;
+    grid-template-columns: 100% !important;
+  }
 }
 #candidatoUnit .d-grid li {
   list-style: none;
