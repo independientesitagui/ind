@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Independientes Itagüí</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css.map">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="import" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/favicon.png" type="img/png">
+  </head>
+  <body>
+    <header>
+      <div class="container-block bg-blue py-2">
+        <div class="container d-flex justify-content-between">
+          <div class="email"><a href="mailto:independientesitagui@gmail.com"><span>independientesitagui@gmail.com</span></a></div>
+          <div class="socials"><a href="https://www.facebook.com/independientesitagui/" target="_blank"><img src="./img/vector/facebook.svg" alt=""></a><a href="https://www.instagram.com/independientesitagui/" target="_blank"><img src="./img/vector/instagram.svg" alt=""></a></div>
+        </div>
+      </div>
+      <inav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container justify-content-between"><a class="navbar-brand" href="#"><img src="./img/brand/logo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item text-darkblue"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+              <li class="nav-item text-darkblue"><a class="nav-link" href="candidato_gobernacion.html">Gobernación</a></li>
+              <li class="nav-item text-darkblue"><a class="nav-link" href="candidato_alcaldia.html">Alcaldía</a></li>
+              <li class="nav-item text-darkblue"><a class="nav-link" href="candidatos_concejo.html">Concejales</a></li>
+            </ul>
+          </div>
+        </div>
+      </inav>
+    </header>
+    <section class="bg-yellow py-1">
+      <div class="container">
+        <h4 class="text-center m-0">Sin jefes y sin partidos políticos tradicionales</h4>
+      </div>
+    </section>
+    <section> 
+      <div class="banner-gobernacion"> </div>
+    </section>
+    <section class="py-5" id="candidatoUnit">
+      <div class="container">
+        <div class="title"> 
+          <h1 class="text-center">Esteban Restrepo</h1>
+        </div>
+        <div class="description"> 
+          <div class="img-person"> <img src="" alt=""></div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum exercitationem, nisi provident soluta quia itaque cumque quae, perferendis quas temporibus magni vel praesentium consequuntur repudiandae deserunt eos doloribus, odio quibusdam nihil animi cupiditate distinctio at qui. Hic dolorem consequatur voluptatem nam inventore laborum ducimus, a esse dolore vero corporis mollitia cumque dicta amet iste. Nesciunt consequatur dignissimos fugit temporibus dolores. Eius ipsum asperiores quis eum, dolores, possimus mollitia accusantium eligendi sit minima, illum natus iusto odio molestiae. Quae ad quod repellat quos culpa et nisi, nobis, ipsum odit aut doloribus explicabo? Id dignissimos quisquam consectetur deleniti, totam animi blanditiis debitis.</p>
+          <ul> 
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="modal fade" id="lugarVotacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="d-grid">
+            <div class="bg-democracia"> 
+              <div class="logo-ind"> <img src="./img/brand/logo-fondo-blanco.png" alt=""></div>
+            </div>
+            <div class="content d-flex align-items-center">
+              <div class="content-text">
+                <div class="title-modal"> 
+                  <h1 class="fs-3 text-center mb-3">¿Ya conoces tu lugar de votación?</h1>
+                  <h3 class="fs-5 text-center mt-4">Faltan</h3>
+                </div>
+                <div class="counters d-grid justify-content-center">
+                  <div class="counter text-center"><span id="days">NA</span>
+                    <p class="m-0">Dias</p>
+                  </div>
+                  <div class="counter text-center"><span id="hours">NA</span>
+                    <p class="m-0">Horas</p>
+                  </div>
+                  <div class="counter text-center"><span id="minutes">NA</span>
+                    <p class="m-0">Minutos</p>
+                  </div>
+                  <div class="counter text-center"><span id="seconds">NA</span>
+                    <p class="m-0">Segundos</p>
+                  </div>
+                </div>
+                <h3 class="fs-5 text-center mb-3">Para que vivamos la democracia</h3>
+                <div class="btn-action d-flex justify-content-center"><a class="btn btn-yellow mt-4" href="https://wsp.registraduria.gov.co/censo/consultar" target="_blank" type="button">Conocer mi lugar de votación</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><a class="btn btn-primary btn-fixed" type="button" data-bs-toggle="modal" data-bs-target="#lugarVotacion"><img class="w-100" src="./img/brand/aviso-fixed.png" alt=""></a>
+    <footer class="footerApp bg-blue py-5" id="footer">
+      <div class="container"> 
+        <div class="logo-ind-footer"><img class="logoFooter" src="./img/brand/logo-fondo-blanco.png"></div>
+        <div class="socials d-flex justify-content-center mt-4"><a href="https://www.facebook.com/independientesitagui/" target="_blank"><img src="./img/vector/facebook.svg" alt=""></a><a href="https://www.instagram.com/independientesitagui/" target="_blank"><img src="./img/vector/instagram.svg" alt=""></a></div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="js/vendor/popper.min.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/vendor/slick.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
