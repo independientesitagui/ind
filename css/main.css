@@ -862,6 +862,14 @@ header .socials a img {
 .modalRegistro {
   z-index: 999999 !important;
 }
+.modalRegistro .btn-close {
+  padding: 20px;
+  position: absolute;
+  right: 0;
+}
+.modalRegistro .content {
+  padding-top: 40px;
+}
 .modalRegistro a {
   text-decoration: none;
   background: none;
